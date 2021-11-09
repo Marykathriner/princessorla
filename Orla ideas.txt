@@ -1,0 +1,2 @@
+Orla Font ideas
+font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 

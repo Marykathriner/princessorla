@@ -1,2 +1,13 @@
 Orla Font ideas
 font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+
+<link rel="stylesheet" href="https://use.typekit.net/bcx6uby.css">
+
+font-family: mrs-eaves-xl-serif, serif;
+font-weight: 400;
+font-style: normal;
+
+
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: normal;

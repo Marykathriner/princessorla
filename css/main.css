@@ -35,7 +35,7 @@ p {
     border: solid 2px white;
     text-transform: uppercase;
     padding: 12.5px;
-    
+    font-size: 15px;
 }
 
 .learn-more {
@@ -43,10 +43,10 @@ p {
     border: solid #484848;
     color: white;
     background: #484848;
-    box-shadow: black 10px 10px;
     text-transform: uppercase;
     padding: 12.5px;
     box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+    font-size: 15px;
 }
 
 nav {
@@ -109,11 +109,7 @@ a:hover {
 }
 
 .button-wrapper{
-    padding: 25px 0;
-}
-
-.services-about {
-    
+    padding: 55px 0;
 }
 
 .col1 {
@@ -148,9 +144,10 @@ a:hover {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    padding: 15px 0 ;
 }
 
 .quote {
     font-style: italic;
-    padding: 50px;
+    padding: 40px;
 }

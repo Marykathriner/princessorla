@@ -251,7 +251,7 @@ h2 .consent {
         flex-direction: column;
         width: 120px;
         margin: 5px 0px 0 5px;
-        }
+    }
 
    .menu {
         display: block;
@@ -260,7 +260,6 @@ h2 .consent {
         border: none; 
         left: 90%;
         top: 25%
-        
    }
 
    .menu-line{

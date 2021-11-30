@@ -182,8 +182,11 @@ a:hover {
     padding: 10px;
 }
 
-h2 .consent {
+.consent-p{
     font-size: 25px;
+}
+.consent-h2{
+    font-size: 45px;
 }
 
 .blanket {
@@ -348,11 +351,26 @@ h2 .consent {
         display: flex;
         top: 30%;
         left: auto;
+        width: 100%;
         color: #707070;
         flex-direction: column
         
     }
-    
-}   
 
+    .consent-p{
+        font-size: 20px;
+    }
+    .consent-h2{
+        font-size: 30px;
+    }
+    
+    /*.popup .content{
+        margin: 0 auto;
+        width: 200px;
+        position: relative;
+        top: 25%;
+        padding: 30px 40px;
+    
+    }*/
+}   
 

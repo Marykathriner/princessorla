@@ -6,3 +6,8 @@ function hideBlanket () {
     var blanket = document.getElementById('blanket');
     blanket.classList.remove('blanket')
 }
+
+function myFunction() {
+    var element = document.getElementById("navi-list");
+    element.classList.toggle("active");
+}

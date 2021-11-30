@@ -22,6 +22,12 @@ h4 {
 
 h5 {
     padding: 25px 0 0;
+    font-size: 15px;
+}
+
+h6{
+    font-size: 13px;
+    padding: 25px 0 0;
 }
 
 p {
@@ -229,9 +235,24 @@ h2 .consent {
 }
 
 @media all and (max-width: 600px) {
+
+    body{
+        margin: 0 -4px 0 -4px
+    }
+
     nav{
         flex-direction: column;
         padding: 5px 0;
+    }
+    .wrapper-about {
+        padding: 35px 40px ;
+    }
+    .wrapper{
+        padding: 5px 0 15px 0;
+    }
+
+    .quote {
+        padding: 10px 30px;
     }
 
    nav ul {
@@ -242,7 +263,7 @@ h2 .consent {
    }
 
    nav ul li {
-        display: block;
+        display: grid;
         padding: 10px 0;
     }
 
@@ -250,7 +271,8 @@ h2 .consent {
         display: inline-flex;
         flex-direction: column;
         width: 120px;
-        margin: 5px 0px 0 5px;
+        margin: 10px 0 0;
+        align-items: center;
     }
 
    .menu {
@@ -258,8 +280,8 @@ h2 .consent {
         position: absolute;
         background: none;
         border: none; 
-        left: 90%;
-        top: 25%
+        left: 88%;
+        top: 17px;
    }
 
    .menu-line{
@@ -269,6 +291,11 @@ h2 .consent {
        margin: 5px 0;
    }
 
+   .nav-list {
+       list-style-type: none;
+
+   }
+
    .active {
        display: block;
    }
@@ -276,13 +303,13 @@ h2 .consent {
    .col1{
        text-align: center;
        width: 100%;
-       margin: 5px;
+       margin: 0 auto;
    }
 
    .col2{
         text-align: center;
         width: 100%;
-        margin: 5px;
+        margin: 0 auto;
     }
 
     .sepv{
@@ -297,8 +324,10 @@ h2 .consent {
         padding: 0px 10px;
     }
 
-    h5{
+    h6{
+        font-size: 15px;
         padding: 5px 0 0;
+        margin: 30px 0 20px;
     }
 
     .back-to-top{
@@ -309,6 +338,21 @@ h2 .consent {
     .button-wrapper{
         padding: 40px 0 30px 0px;
     }
+
+    .popup .content {
+        box-sizing: border-box;
+        padding: 30px 40px;
+        background-color: white;
+        text-align: center;
+        position: absolute;
+        display: flex;
+        top: 30%;
+        left: auto;
+        color: #707070;
+        flex-direction: column
+        
+    }
+    
 }   
 
 

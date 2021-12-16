@@ -35,6 +35,7 @@ p {
 
 }
 
+/* buttons */
 .back-to-top {
     color: white;
     background: none;
@@ -55,6 +56,7 @@ p {
     font-size: 15px;
 }
 
+/* navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -87,7 +89,7 @@ nav ul li a {
     height: 100%;
     text-transform: uppercase;
 }
-
+/* footer */
 footer {
     background: #484848;
     color: white;
@@ -100,11 +102,16 @@ footer a {
     padding: 0 22px;
 }
 
+.fab{
+    font-size: 40px;
+}
+
+
 a:hover {
     color: grey;
 }
 
-
+/* About section */
 .wrapper-about {
     text-align: center;
     margin: 0 0 40px 0;
@@ -113,11 +120,11 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Button below about */
 .button-wrapper{
     padding: 55px 0;
 }
-
+/* column services */
 .col1 {
     text-align: center;
     float: left;
@@ -145,7 +152,7 @@ a:hover {
     background-color: black;
     margin-top: 60px;
 }
-
+/* Center content wrapper */
 .wrapper {
     text-align: center;
     width: 100%;
@@ -247,9 +254,11 @@ a:hover {
         flex-direction: column;
         padding: 5px 0;
     }
+    /* About section */
     .wrapper-about {
         padding: 35px 40px ;
     }
+    /* multi purpose wrapper */
     .wrapper{
         padding: 5px 0 15px 0;
     }
@@ -257,7 +266,7 @@ a:hover {
     .quote {
         padding: 10px 30px;
     }
-
+    /* Navbar  */
    nav ul {
         list-style-type: none;
         width: 100%;
@@ -277,7 +286,7 @@ a:hover {
         margin: 10px 0 0;
         align-items: center;
     }
-
+    /* hamburger menu */
    .menu {
         display: block;
         position: absolute;
@@ -302,7 +311,7 @@ a:hover {
    .active {
        display: block;
    }
-
+   /* Column */
    .col1{
        text-align: center;
        width: 100%;
@@ -318,7 +327,7 @@ a:hover {
     .sepv{
         display: none;
     }
-
+/* FOOTER FOOTER FOOTER  */
     footer{
         padding: 0px;
     }
@@ -329,7 +338,6 @@ a:hover {
 
     h6{
         font-size: 15px;
-        padding: 5px 0 0;
         margin: 30px 0 20px;
     }
 
@@ -337,11 +345,11 @@ a:hover {
         padding: 10.5px;
         font-size: 14px;
     }
-
+    /* back to top button */
     .button-wrapper{
         padding: 40px 0 30px 0px;
     }
-
+/* POPUP POPUP POPUP */
     .popup .content {
         box-sizing: border-box;
         padding: 30px 40px;

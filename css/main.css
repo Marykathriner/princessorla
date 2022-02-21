@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 .sessions:hover{
-    color: grey;
+    cursor: pointer;
 }
 
 .sub-nav-list{
@@ -179,9 +179,9 @@ nav ul li a {
 
 .sub-nav-div .sub-nav-list li a {
     padding: 0px 30px;
-    /* text-decoration: none; */
+    text-decoration: none;
+    color: black;
 }
-
 
 
 /* footer */
@@ -201,10 +201,6 @@ footer a {
     font-size: 40px;
 }
 
-
-a:hover {
-    color: grey;
-}
 
 /* About section */
 .wrapper-about {
@@ -386,8 +382,12 @@ textarea{
     padding: 40px 400px 15px 400px;
 }
 
-/* DUNGEON */
+/* multi purpose classes*/
 
+.content-wrapper{
+    text-align: center;
+    padding: 40px 400px 15px 400px;
+}
 
 
 @media all and (max-width: 600px) {

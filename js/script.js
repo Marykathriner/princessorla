@@ -11,3 +11,8 @@ function myFunction() {
     var element = document.getElementById("navi-list");
     element.classList.toggle("active");
 }
+
+function subNav() {
+    var element = document.getElementById("sub-navi");
+    element.classList.toggle("active");
+}
